@@ -1,0 +1,7 @@
+from lucidum.core import BatteryManager, simulate, Presets
+
+bm = Presets.deep_work()
+log = simulate(T=300, bm=bm, rate=2)
+
+from lucidum.core import dashboard
+dashboard(log, bm, title="Deep Work")
