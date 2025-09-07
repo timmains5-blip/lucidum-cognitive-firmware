@@ -1,0 +1,9 @@
+# Lucidum Cognitive Firmware
+A small Python library + notebooks that simulate **cognitive energy (“battery”)**, **concurrent focus (“channels”)**, **alignment bonus / misalignment cost**, and **overflow thresholds**.
+
+<p align="center"><img src="notebooks/figures/example_battery.png" width="560"></p>
+
+## Quickstart
+```bash
+pip install -U pip
+pip install numpy matplotlib
